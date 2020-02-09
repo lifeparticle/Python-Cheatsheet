@@ -135,7 +135,25 @@ isinstance(a, float)
 False
 ```
 
+List
+-----
 
+```python
+a = ["a", "b", "c"]
+
+f, s, t = ["a", "b", "c"]
+# output
+# f = 'a'
+# s = 'b'
+# t = 'c'
+
+f, *mid, l = ["a", "b", "c"]
+
+# output
+# f = 'a'
+# mid = ['b']
+# l = 'c'
+```
 
 Miscellaneous
 ============
