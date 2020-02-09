@@ -99,7 +99,7 @@ Assignment operators
 
 Books and other resources
 ============
-TODO
+1. TODO
 
 Bug Reports and Feature Requests
 ============
