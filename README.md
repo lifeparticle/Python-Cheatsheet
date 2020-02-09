@@ -105,20 +105,20 @@ Data types
 
 | No | Type  | Example  | Class  | Type  |
 |---|---|---|---|---|
-| 1  | int        | > a = 17                           |> a.__class__.__name__ <br> > 'int'        | Numeric Types         |
-| 2  | float      | > a = 87.23                        |> a.__class__.__name__ <br> > 'float'      | Numeric Types         |
-| 3  | complex    | > a = 1j or > a = 1J               |> a.__class__.__name__ <br> > 'complex'    | Numeric Types         |
-| 4  | str        | > a = "Hello universe"             |> a.__class__.__name__ <br> > 'str'        | Text Sequence Type    |
-| 5  | list       | > a = ["a", "b", "c"]              |> a.__class__.__name__ <br> > 'list'       | Sequence Types        |
-| 6  | tuple      | > a = ("a", "b", "c")              |> a.__class__.__name__ <br> > 'tuple'      | Sequence Types        |
-| 7  | range      | > a = range(7)                     |> a.__class__.__name__ <br> > 'range'      | Sequence Types        |
-| 8  | dict       | > a = {"name" : "Tom", "age" : 17} |> a.__class__.__name__ <br> > 'dict'       | Mapping Types         |
-| 9  | set        | > a = {"a", "b", "c"}              |> a.__class__.__name__ <br> > 'set'        | Set Types             |
-| 10 | frozenset  | > a = frozenset({"a", "b", "c"})   |> a.__class__.__name__ <br> > 'frozenset'  | Set Types             |
-| 11 | bool       | > a = True                         |> a.__class__.__name__ <br> > 'bool'       | Boolean Types         |
-| 12 | bytes      | > a = b"Hello universe"            |> a.__class__.__name__ <br> > 'bytes'      | Binary Sequence Types |
-| 13 | bytearray  | > a = bytearray(7)                 |> a.__class__.__name__ <br> > 'bytearray'  | Binary Sequence Types |
-| 14 | memoryview | > a = memoryview(bytes(7))         |> a.__class__.__name__ <br> > 'memoryview' | Binary Sequence Types |
+| 1  | int        | > a = 17                           |> `a.__class__.__name__` <br> > 'int'        | Numeric Types         |
+| 2  | float      | > a = 87.23                        |> `a.__class__.__name__` <br> > 'float'      | Numeric Types         |
+| 3  | complex    | > a = 1j or > a = 1J               |> `a.__class__.__name__`` <br> > 'complex'    | Numeric Types         |
+| 4  | str        | > a = "Hello universe"             |> `a.__class__.__name__` <br> > 'str'        | Text Sequence Type    |
+| 5  | list       | > a = ["a", "b", "c"]              |> `a.__class__.__name__` <br> > 'list'       | Sequence Types        |
+| 6  | tuple      | > a = ("a", "b", "c")              |> `a.__class__.__name__` <br> > 'tuple'      | Sequence Types        |
+| 7  | range      | > a = range(7)                     |> `a.__class__.__name__` <br> > 'range'      | Sequence Types        |
+| 8  | dict       | > a = {"name" : "Tom", "age" : 17} |> `a.__class__.__name__` <br> > 'dict'       | Mapping Types         |
+| 9  | set        | > a = {"a", "b", "c"}              |> `a.__class__.__name__` <br> > 'set'        | Set Types             |
+| 10 | frozenset  | > a = frozenset({"a", "b", "c"})   |> `a.__class__.__name__` <br> > 'frozenset'  | Set Types             |
+| 11 | bool       | > a = True                         |> `a.__class__.__name__` <br> > 'bool'       | Boolean Types         |
+| 12 | bytes      | > a = b"Hello universe"            |> `a.__class__.__name__` <br> > 'bytes'      | Binary Sequence Types |
+| 13 | bytearray  | > a = bytearray(7)                 |> `a.__class__.__name__` <br> > 'bytearray'  | Binary Sequence Types |
+| 14 | memoryview | > a = memoryview(bytes(7))         |> `a.__class__.__name__` <br> > 'memoryview' | Binary Sequence Types |
 
 
 [Further readings](https://docs.python.org/3/library/stdtypes.html)
