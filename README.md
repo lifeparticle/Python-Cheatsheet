@@ -98,6 +98,21 @@ Assignment operators
 | 7 | **=   |
 | 8 | //=   |
 
+
+
+
+
+Miscellaneous
+============
+
+Get the number of bits in an integer in binary, excluding the sign and leading zeros.
+-----
+
+```python
+n.bit_length()
+```
+
+
 Books and other resources
 ============
 1. TODO
