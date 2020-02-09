@@ -147,6 +147,12 @@ Get the number of bits in an integer in binary, excluding the sign and leading z
 n.bit_length()
 ```
 
+Swap two variables in one line
+-----
+
+```python
+a, b = b, a
+```
 
 Books and other resources
 ============
