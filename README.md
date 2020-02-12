@@ -104,11 +104,12 @@ Conditional structures
 
 Ternary Operators
 -----
-execute_if_true if condition else execute_if_false
-
 ```
-is_even = 6
-print "even" if is_even % 2 == 0 else "odd"
+execute_if_true if condition else execute_if_false
+```
+
+```python
+print "even" if 6 % 2 == 0 else "odd"
 
 # output
 # even
