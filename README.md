@@ -173,7 +173,7 @@ f, *mid, l = ["a", "b", "c"]
 format() function
 ============
 
-```
+```python
 "{:{width}.{prec}f}".format(10.344, width=10, prec=6)
 
 # output
