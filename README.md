@@ -99,6 +99,20 @@ Assignment operators
 | 8 | //=   |
 
 
+Conditional structures
+============
+
+Ternary Operators
+-----
+execute_if_true if condition else execute_if_false
+
+```
+is_even = 6
+print "even" if is_even % 2 == 0 else "odd"
+
+# output
+# even
+```
 
 Data types
 ============
@@ -153,6 +167,16 @@ f, *mid, l = ["a", "b", "c"]
 # f = 'a'
 # mid = ['b']
 # l = 'c'
+```
+
+format() function
+============
+
+```
+"{:{width}.{prec}f}".format(10.344, width=10, prec=6)
+
+# output
+# ' 10.344000'
 ```
 
 Miscellaneous
