@@ -186,6 +186,26 @@ a.extend(b)
 # ['a', 'b', 'c', 'd', 'e', 'f']
 ```
 
+List slice
+
+list[start_index:stop_index:step]
+
+```python
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+numbers[0::2]
+
+# output
+# [1, 3, 5, 7, 9]
+
+
+numbers[1::2]
+
+# output
+# [2, 4, 6, 8, 10]
+```
+
+
 format() function
 ============
 
