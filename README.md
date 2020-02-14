@@ -170,6 +170,22 @@ f, *mid, l = ["a", "b", "c"]
 # l = 'c'
 ```
 
+```python
+a = ["a", "b", "c"]
+b = ["d", "e", "f"]
+
+a.append(b)
+# output
+# ['a', 'b', 'c', ['d', 'e', 'f']]
+
+a = ["a", "b", "c"]
+b = ["d", "e", "f"]
+
+a.extend(b)
+# output
+# ['a', 'b', 'c', 'd', 'e', 'f']
+```
+
 format() function
 ============
 
