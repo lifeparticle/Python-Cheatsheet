@@ -207,6 +207,8 @@ numbers[1::2]
 
 List Comprehensions
 
+Create a list of lists
+
 ```python
 [[0]*2 for i in range(2)]
 
