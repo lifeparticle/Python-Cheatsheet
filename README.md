@@ -205,6 +205,14 @@ numbers[1::2]
 # [2, 4, 6, 8, 10]
 ```
 
+List Comprehensions
+
+```python
+[[0]*2 for i in range(2)]
+
+# output
+# [[0, 0], [0, 0]]
+```
 
 format() function
 ============
