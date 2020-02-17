@@ -283,6 +283,34 @@ uniqueEvenNumbers = {num for num in numbers if num % 2 == 0}
 # set([2, 4, 6, 8, 10, 12, 14])
 ```
 
+zip() Function
+============
+
+Creates an iterator of tuples.
+
+```python
+zip(iterator1, iterator2, iterator3 ...)
+```
+
+```python
+a = ['a', 'b', 'c']
+b = [1, 2, 3]
+
+zip(a, b)
+
+# output
+# [('a', 1), ('b', 2), ('c', 3)]
+```
+
+tuples to list
+
+```python
+list(map(list, zip(a, b)))
+
+# output
+# [['a', 1], ['b', 2], ['c', 3]]
+```
+
 format() function
 ============
 
