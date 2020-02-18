@@ -283,6 +283,51 @@ uniqueEvenNumbers = {num for num in numbers if num % 2 == 0}
 # set([2, 4, 6, 8, 10, 12, 14])
 ```
 
+map() Function
+============
+
+```python
+map(function, list)
+```
+
+```python
+numbers = [1, 2, 3, 4, 5]
+squared = list(map(lambda n: n*n, numbers))
+
+# output
+# [1, 4, 9, 16, 25]
+```
+
+filter() Function
+============
+
+```python
+map(function, list)
+```
+
+```python
+numbers = [1, 2, 3, 4, 5]
+odd = list(filter(lambda n: n % 2 != 0, numbers))
+
+# output
+# [1, 3, 5]
+```
+
+reduce() Function
+============
+
+```python
+map(function, list)
+```
+
+```python
+numbers = [1, 2, 3, 4, 5]
+sum = reduce(lambda x, y: x + y, numbers
+
+# output
+# 15
+```
+
 zip() Function
 ============
 
