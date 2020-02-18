@@ -302,7 +302,7 @@ filter() Function
 ============
 
 ```python
-map(function, list)
+filter(function, list)
 ```
 
 ```python
@@ -317,7 +317,7 @@ reduce() Function
 ============
 
 ```python
-map(function, list)
+reduce(function, list)
 ```
 
 ```python
