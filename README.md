@@ -281,6 +281,11 @@ uniqueEvenNumbers = {num for num in numbers if num % 2 == 0}
 
 # output
 # set([2, 4, 6, 8, 10, 12, 14])
+
+uniqueNumbers = set(numbers)
+
+# output
+# set([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14])
 ```
 
 map() Function
