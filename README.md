@@ -1,5 +1,38 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/lifeparticle/Python-Cheatsheet/issues)
 
+Table of Contents
+=================
+
+   * [Table of Contents](#table-of-contents)
+   * [Installation](#installation)
+      * [How to install python](#how-to-install-python)
+   * [Comment](#comment)
+   * [Operators](#operators)
+      * [Logical operators](#logical-operators)
+      * [Bitwise operators](#bitwise-operators)
+      * [Arithmetic operators](#arithmetic-operators)
+      * [Comparison operators](#comparison-operators)
+      * [Assignment operators](#assignment-operators)
+   * [Conditional structures](#conditional-structures)
+      * [Ternary Operators](#ternary-operators)
+   * [Data types](#data-types)
+      * [How to check data type](#how-to-check-data-type)
+      * [List](#list)
+      * [Dictionary](#dictionary)
+      * [Set](#set)
+   * [map() Function](#map-function)
+   * [filter() Function](#filter-function)
+   * [reduce() Function](#reduce-function)
+   * [zip() Function](#zip-function)
+   * [format() function](#format-function)
+   * [Miscellaneous](#miscellaneous)
+      * [Get the number of bits in an integer in binary, excluding the sign and leading zeros.](#get-the-number-of-bits-in-an-integer-in-binary-excluding-the-sign-and-leading-zeros)
+      * [Swap two variables in one line](#swap-two-variables-in-one-line)
+   * [Books and other resources](#books-and-other-resources)
+   * [Bug Reports and Feature Requests](#bug-reports-and-feature-requests)
+   * [Author](#author)
+   * [License](#license)
+   
 Installation
 ============
 
