@@ -3,7 +3,6 @@
 Table of Contents
 =================
 
-   * [Table of Contents](#table-of-contents)
    * [Installation](#installation)
       * [How to install python](#how-to-install-python)
    * [Comment](#comment)
