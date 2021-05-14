@@ -443,6 +443,14 @@ Swap two variables in one line
 a, b = b, a
 ```
 
+My Python Articles
+============
+1. [How To Run a Python Script Using a Docker Container](https://towardsdatascience.com/how-to-run-a-python-script-using-a-docker-container-ea248e618e32)
+2. [How To Create a Twitter Bot in Python](https://levelup.gitconnected.com/how-to-create-a-twitter-bot-in-python-bf49a384905f)
+3. [How To Extract Text From Images Using Tesseract OCR Engine and Python](https://towardsdatascience.com/how-to-extract-text-from-images-using-tesseract-ocr-engine-and-python-22934125fdd5)
+4. [How to Connect to a PostgreSQL Database With a Python Serverless Function](https://towardsdatascience.com/how-to-connect-to-a-postgresql-database-with-a-python-serverless-function-f5f3b244475)
+5. [How to Deploy a Python Serverless Function to Vercel](https://towardsdatascience.com/how-to-deploy-a-python-serverless-function-to-vercel-f43c8ca393a0)
+
 Books and other resources
 ============
 1. TODO
