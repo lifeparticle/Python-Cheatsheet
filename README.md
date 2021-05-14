@@ -31,7 +31,7 @@ Table of Contents
    * [Bug Reports and Feature Requests](#bug-reports-and-feature-requests)
    * [Author](#author)
    * [License](#license)
-   
+
 Installation
 ============
 
@@ -73,7 +73,7 @@ Logical operators
 -----
 | No | operator |
 |---|---|
-| 1 | and   | 
+| 1 | and   |
 | 2 | or    |
 | 3 | not   |
 | 4 | &&    |
@@ -85,7 +85,7 @@ Bitwise operators
 -----
 | No | operator |
 |---|---|
-| 1 | &     | 
+| 1 | &     |
 | 2 | \|    |
 | 3 | ^     |
 | 4 | ~     |
@@ -96,7 +96,7 @@ Arithmetic operators
 -----
 | No | operator |
 |---|---|
-| 1 | +     | 
+| 1 | +     |
 | 2 | -     |
 | 3 | *     |
 | 4 | /     |
@@ -108,7 +108,7 @@ Comparison operators
 -----
 | No | operator |
 |---|---|
-| 1  | ==     | 
+| 1  | ==     |
 | 2  | !=     |
 | 3  | >      |
 | 4  | <      |
@@ -121,7 +121,7 @@ Assignment operators
 -----
 | No | operator |
 |---|---|
-| 1 | =     | 
+| 1 | =     |
 | 2 | +=    |
 | 3 | -=    |
 | 4 | *=    |
@@ -133,6 +133,23 @@ Assignment operators
 
 Conditional structures
 ============
+
+```python
+x = 11
+if x > 10:
+    print("The number is greater than 10")
+else:
+    print("The number is not greater than 10")
+```
+
+```python
+if x == 10:
+    print('The value of x is 10')
+elif x == 11:
+    print('The value of x is 11')
+else:
+    print('The value of x is not either 10 or 11')
+```
 
 Ternary Operators
 -----
@@ -177,9 +194,14 @@ How to check data type
 ```python
 a = 37
 isinstance(a, int)
-True
+# True
 isinstance(a, float)
-False
+# False
+```
+
+```python
+type(10)
+# <type 'int'>
 ```
 
 List
