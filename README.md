@@ -16,6 +16,7 @@ Table of Contents
       * [Ternary Operators](#ternary-operators)
    * [Data types](#data-types)
       * [How to check data type](#how-to-check-data-type)
+      * [String](#string)
       * [List](#list)
       * [Dictionary](#dictionary)
       * [Set](#set)
@@ -203,6 +204,17 @@ isinstance(a, float)
 type(10)
 # <type 'int'>
 ```
+
+String
+-----
+
+```python
+print('Hello World'[0])
+# H
+print('Hello World'[1])
+# e
+```
+
 
 List
 -----
