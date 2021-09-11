@@ -463,6 +463,7 @@ My Python Articles
 4. [How to Connect to a PostgreSQL Database With a Python Serverless Function](https://towardsdatascience.com/how-to-connect-to-a-postgresql-database-with-a-python-serverless-function-f5f3b244475)
 5. [How to Deploy a Python Serverless Function to Vercel](https://towardsdatascience.com/how-to-deploy-a-python-serverless-function-to-vercel-f43c8ca393a0)
 6. [How to Dockerize an Existing Flask Application](https://towardsdatascience.com/how-to-dockerize-an-existing-flask-application-115408463e1c)
+7. [How To Create a Docker Image From a Container](https://python.plainenglish.io/how-to-create-a-docker-image-from-a-container-402f70f3dbf0)
 
 Books and other resources
 ============
