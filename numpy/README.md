@@ -9,3 +9,10 @@ arr
 
 a = np.arange(15).reshape(3, 5)
 ```
+
+
+```python
+np.zeros((3, 3))
+
+np.ones((3, 3))
+```
