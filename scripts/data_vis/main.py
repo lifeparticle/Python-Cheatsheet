@@ -7,39 +7,38 @@ import pandas as pd
 app = dash.Dash(__name__)
 
 df = pd.read_csv("netflix_titles.csv")
+df.drop_duplicates(inplace=True)
 
-movie = df['type'] == 'Movie'
-tv_show = df['type'] == 'TV Show'
-
-# df = df.groupby(["type"]).count()
-print(movie.count())
-print(tv_show.count())
-
-
-fig = px.pie(
+pie_fig = px.pie(
     data_frame=df,
     names='type',
-    # values='title',
-    color='type',
-    hole=0.5,
-    height=800,
-    width=800,
+    hole=0.8,
     title='TV Show vs. Movie')
-# fig.show()
 
-
+bar_fig = px.bar(
+    data_frame=df.groupby(["type"], as_index=False).agg(count=pd.NamedAgg(column="type", aggfunc="count")),
+    x='type',
+    y='count',
+    color='type',
+    title='TV Show vs. Movie')
 
 app.layout = html.Div(children=[
-    html.H1(children='Hello Dash'),
-
+    html.H1(children='Visualizing Netflix Data With Python'),
     html.Div(children='''
-        Dash: A web application framework for your data.
+        Using Pandas, Plotly Express, and Dash.
     '''),
-
-    dcc.Graph(
-        id='example-graph',
-        figure=fig
-    )
+    html.Div([
+        dcc.Graph(
+            id='graph1',
+            figure=pie_fig
+        ),
+    ]),
+    html.Div([
+        dcc.Graph(
+            id='graph2',
+            figure=bar_fig
+        ),
+    ]),
 ])
 
 if __name__ == '__main__':
