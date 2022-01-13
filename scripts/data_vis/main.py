@@ -5,6 +5,7 @@ import plotly.express as px
 import pandas as pd
 
 app = dash.Dash(__name__)
+server = app.server
 
 df = pd.read_csv("netflix_titles.csv")
 df.drop_duplicates(inplace=True)
