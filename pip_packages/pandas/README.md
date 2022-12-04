@@ -88,12 +88,17 @@ We can use data visulization like histograms to show the price distribution.
 # Converting categorical varaibles into quantitative varaibles
 
 
+## One hot technique
+
 | Car | Fuel | gas       | petrol |
 | ---------------- | --------------- |---------------|---------------|
 | A       | gas         | 1        | 0  |  
 | B       | petrol           | 0    | 1  |  
 | C       | gas  | 1  | 0   | 
 
+```py
+pd.get_dummies(dataframe['fuel'])
+```
 
 # Data formatting
 
