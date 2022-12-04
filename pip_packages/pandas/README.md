@@ -83,23 +83,14 @@ hard to aggregate -> easy to aggregate
 
 
 $$
-x_{new} = x_old/x_max
+x_{new} = x_{old}/x_{max}
 $$
 
 ## Min-Max
 
 $$
-x = {-b \pm \sqrt{b^2-4ac} \over 2a}
+x_{new} = x_{old}-x_{min}/x_{max}-x_{min}
 $$
-
-## Z-score
-
-$$
-x = {-b \pm \sqrt{b^2-4ac} \over 2a}
-$$
-
-
-
 
 ## Rename column name
 
