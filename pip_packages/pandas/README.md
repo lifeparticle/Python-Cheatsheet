@@ -1,11 +1,25 @@
 # Data types
 
-| Python data type | Panda data type |
-| ---------------- | --------------- |
-| float            | float64         |
-| int              | int64           |
-| datetime         | datetime64[ns]  |
-| string           | object          |
+## Identify data types
+
+```py
+df = pd.DataFrame({'id': ["1"]})
+df.dtypes # name    object
+```
+
+## Convert data types
+
+```py
+df['id'] = df['id'].astype('int')
+df.dtypes # id    int64
+```
+
+| Python data type | Panda data type | Example       |
+| ---------------- | --------------- |---------------|
+| float            | float64         | 3.1416        |
+| int              | int64           | 2, 3, 5       |
+| datetime         | datetime64[ns]  | '2007-07-13'  |
+| string           | object          | 'A', 'E', 'I' |
 
 # Data formats
 
@@ -52,6 +66,46 @@ dataframe['column 1'].re[place(np,nan, mean)
 ```
 
 ### Leave it as missing values
+
+
+# Data formatting
+
+Non-formatted -> Formatted
+SYD -> Sydney
+S.Y.D -> Sydney
+
+hard to compare -> easy to compare
+hard to aggregate -> easy to aggregate
+
+# Data normalizations
+
+## Feature scaling
+
+
+$$
+x_new = x_old/x_max
+$$
+
+## Min-Max
+
+$$
+x = {-b \pm \sqrt{b^2-4ac} \over 2a}
+$$
+
+## Z-score
+
+$$
+x = {-b \pm \sqrt{b^2-4ac} \over 2a}
+$$
+
+
+
+
+## Rename column name
+
+```py
+dataframe.rename(columns={'column 1': 'column 2'}, inplace=True)
+```
 
 # Methods
 
@@ -104,3 +158,7 @@ dataframe.columns = headers
 ```py
 dataframe.columns
 ```
+
+# Resources
+
+1. [Standardization vs Normalization Clearly Explained!](https://www.youtube.com/watch?v=sxEqtjLC0aM)
