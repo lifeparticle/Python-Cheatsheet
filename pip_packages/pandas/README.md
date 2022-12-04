@@ -62,7 +62,7 @@ dataframe.dropna(subset=['column 1'], axis=1, inplace=True) # axis=1 drops the e
 
 ```py
 mean = dataframe['column 1'].mean()
-dataframe['column 1'].re[place(np.nan, mean)
+dataframe['column 1'].replace(np.nan, mean)
 ```
 
 ### Leave it as missing values
