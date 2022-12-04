@@ -84,6 +84,17 @@ dataframe['price-binned'] = pd.cut(dataframe['price'], bins, labels=bin_names, i
 
 We can use data visulization like histograms to show the price distribution.
 
+
+# Converting categorical varaibles into quantitative varaibles
+
+
+| Car | Fuel | gas       | petrol |
+| ---------------- | --------------- |---------------|---------------|
+| A       | gas         | 1        | 0  |  
+| B       | petrol           | 0    | 1  |  
+| C       | gas  | 1  | 0   | 
+
+
 # Data formatting
 
 Non-formatted -> Formatted
