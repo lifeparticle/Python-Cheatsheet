@@ -87,7 +87,7 @@ We can use data visulization like histograms to show the price distribution.
 
 # Converting categorical varaibles into quantitative varaibles
 
-A numerical variable used to identify categories is known as an indicator variable (or dummy variable). The reason they are referred to as "dummies" is since the numbers themselves are have meaningless no meaning. To enable categorical variables for regression analysis in later modules, we use indicator variables. We can observe that the "fuel-type" column only has two distinct values: "gas" or "petrol." Since words are not understood by regression; only numbers are. We translate "fuel-type" into indicator variables in order to use this attribute in regression analysis. We will give numerical values to various fuel type categories using pandas' method `get_dummies`.
+A numerical variable used to identify categories is known as an indicator variable (or dummy variable). The reason they are referred to as "dummies" is since the numbers themselve have no meaning. To enable categorical variables for regression analysis in later modules, we use indicator variables. We can observe that the "fuel-type" column only has two distinct values: "gas" or "petrol." Since words are not understood by regression; only numbers are. We translate "fuel-type" into indicator variables in order to use this attribute in regression analysis. We will give numerical values to various fuel type categories using pandas' method `get_dummies`.
 
 
 ## One hot technique
