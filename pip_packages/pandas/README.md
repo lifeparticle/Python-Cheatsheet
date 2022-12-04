@@ -102,12 +102,14 @@ pd.get_dummies(dataframe['fuel'])
 
 # Data formatting
 
+```
 Non-formatted -> Formatted
 SYD -> Sydney
 S.Y.D -> Sydney
 
 hard to compare -> easy to compare
 hard to aggregate -> easy to aggregate
+```
 
 # Data normalizations
 
