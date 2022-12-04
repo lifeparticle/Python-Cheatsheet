@@ -83,7 +83,7 @@ hard to aggregate -> easy to aggregate
 
 
 $$
-x_new = x_old/x_max
+x_{new} = x_old/x_max
 $$
 
 ## Min-Max
