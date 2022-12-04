@@ -81,16 +81,23 @@ hard to aggregate -> easy to aggregate
 
 ## Feature scaling
 
-
 $$
 x_{new} = x_{old}/x_{max}
 $$
+
+```py
+dataframe['column 1'] = dataframe['column 1']/dataframe['column 1'].max()
+```
 
 ## Min-Max
 
 $$
 x_{new} = x_{old}-x_{min}/x_{max}-x_{min}
 $$
+
+```py
+dataframe['column 1'] = dataframe['column 1']-dataframe['column 1'].min()/dataframe['column 1'].max()-dataframe['column 1'].min()
+```
 
 ## Rename column name
 
