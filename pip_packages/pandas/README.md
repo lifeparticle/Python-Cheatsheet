@@ -62,11 +62,27 @@ dataframe.dropna(subset=['column 1'], axis=1, inplace=True) # axis=1 drops the e
 
 ```py
 mean = dataframe['column 1'].mean()
-dataframe['column 1'].re[place(np,nan, mean)
+dataframe['column 1'].re[place(np.nan, mean)
 ```
 
 ### Leave it as missing values
 
+## Binning
+
+Grouping of values into **bins**. For example, We can categorize the price into low, medium and high price bins.
+
+```
+price:       10, 20, 30     40, 50, 60    70, 80. 90. 100
+bins:        low            mid           high
+```
+
+```py
+bins = np.linspace(min(dataframe['price']), max['price']), 4)
+bin_names = ['low', 'mid', 'high']
+dataframe['price-binned'] = pd.cut(dataframe['price'], bins, labels=bin_names, include_lowest=True)
+```
+
+We can use data visulization like histograms to show the price distribution.
 
 # Data formatting
 
